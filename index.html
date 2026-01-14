@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./src/styles/main.css">
+
+  <title>Дизайн Штор | Портфолио</title>
+</head>
+
+<body>
+  <div id="app">
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container nav-content">
+        <a href="#" class="logo">OK Design</a>
+        <ul class="nav-links">
+          <li><a href="#about">Обо мне</a></li>
+          <li><a href="#portfolio">Портфолио</a></li>
+          <li><a href="#stages">Этапы</a></li>
+          <li><a href="#contact" class="btn btn-primary">Связаться</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="hero-top-text animate-fade-up">
+          <span class="hero-subtitle">ДИЗАЙНЕР ПО ТЕКСТИЛЮ</span>
+          <span class="hero-location">Санкт-Петербург</span>
+        </div>
+        <h1 class="hero-title animate-fade-up delay-1">Ольга Козлова</h1>
+        <p class="hero-tagline animate-fade-up delay-2">От идеи до реализации</p>
+
+        <div class="hero-scroll animate-fade-up delay-3">
+          <a href="#about" class="chevron-down"></a>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">Обо мне</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>Меня зовут Ольга Козлова. Я создаю уют и стиль в вашем доме с помощью текстиля. Мой подход объединяет
+              эстетику и функциональность, превращая обычные окна в произведение искусства.</p>
+            <ul class="features-list">
+              <li class="feature-item">
+                <div class="feature-icon-wrapper">
+                  <img src="./images/icon_feature_sketch.png" alt="Эскиз" class="feature-icon">
+                </div>
+                <span>Индивидуальный эскиз для каждого проекта</span>
+              </li>
+              <li class="feature-item">
+                <div class="feature-icon-wrapper">
+                  <img src="./images/icon_feature_fabric.png" alt="Ткани" class="feature-icon">
+                </div>
+                <span>Работа с премиальными европейскими тканями</span>
+              </li>
+              <li class="feature-item">
+                <div class="feature-icon-wrapper">
+                  <img src="./images/icon_feature_needle.png" alt="Пошив" class="feature-icon">
+                </div>
+                <span>Полное сопровождение: от замера до развески</span>
+              </li>
+            </ul>
+          </div>
+          <div class="about-image-wrapper">
+            <img src="./images/about_portrait_olga.png" alt="Ольга Козлова - Дизайнер" class="about-image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Concept Section -->
+    <section id="concept" class="section">
+      <div class="container">
+        <h2 class="section-title">Концепция работы</h2>
+        <p class="section-subtitle text-center">От замеров до установки. Индивидуальный подход для уюта и стиля вашего
+          дома.</p>
+
+        <div class="concept-grid">
+          <div class="concept-item">
+            <h3>Огромный выбор</h3>
+            <p>Работа с обширной базой образцов текстиля и фурнитуры России и Европы</p>
+          </div>
+          <div class="concept-item">
+            <h3>Вместе с профессионалами</h3>
+            <p>Коллаборация с архитектурными бюро и дизайнерами интерьеров</p>
+          </div>
+          <div class="concept-item">
+            <h3>Опыт и доверие</h3>
+            <p>Сотрудничество с лучшими поставщиками, специалистами по монтажу и мастерами по пошиву</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+      <div class="container">
+        <h2 class="section-title">Портфолио</h2>
+        <div class="portfolio-grid" id="portfolio-grid">
+          <div class="portfolio-item" data-id="1">
+            <div class="image-box aspect-ratio-3-4">
+              <img src="./images/portfolio_classic.jpg" alt="Проект Классика">
+            </div>
+            <h3>Гостиная в классическом стиле</h3>
+          </div>
+          <div class="portfolio-item" data-id="2">
+            <div class="image-box aspect-ratio-3-4">
+              <img src="./images/portfolio_modern.jpg" alt="Проект Модерн">
+            </div>
+            <h3>Спальня Модерн</h3>
+          </div>
+          <div class="portfolio-item" data-id="3">
+            <div class="image-box aspect-ratio-3-4">
+              <img src="./images/portfolio_loft.jpg" alt="Проект Лофт">
+            </div>
+            <h3>Текстиль для Лофта</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stages of Work Section -->
+    <section id="stages" class="section">
+      <div class="container">
+        <h2 class="section-title">Этапы работы</h2>
+
+        <div class="timeline">
+          <!-- Step 1 -->
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <img src="./images/icon_sketch.png" alt="Эскиз">
+            </div>
+            <div class="timeline-content">
+              <h3>Предварительный эскиз</h3>
+              <p>Разработка дизайн-проекта текстильного оформления с нуля</p>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <img src="./images/icon_visualization.png" alt="Визуализация">
+            </div>
+            <div class="timeline-content">
+              <h3>Визуализация проекта</h3>
+              <p>Подбор материалов и фурнитуры с выездом на объект, отрисовка эскизов</p>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <img src="./images/icon_docs.png" alt="Документация">
+            </div>
+            <div class="timeline-content">
+              <h3>Рабочая документация</h3>
+              <p>Взаимодействие с архитектором по визуалу и развертке, расчет стоимости проекта</p>
+            </div>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <img src="./images/icon_supervision.png" alt="Надзор">
+            </div>
+            <div class="timeline-content">
+              <h3>Авторский надзор</h3>
+              <p>Личный контроль всего комплекса работ от замеров и консультаций до развески текстиля на объекте</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-dark text-white">
+      <div class="container contact-wrapper">
+        <div class="contact-info">
+          <h2 class="section-title text-left">Контакты</h2>
+          <p>Готовы преобразить ваш интерьер? Напишите мне.</p>
+          <ul class="contact-list">
+            <li><a href="tel:+79818626151" class="contact-phone">+7 (981) 862-61-51</a></li>
+            <li><a href="mailto:okv-100@mail.ru" class="contact-email">okv-100@mail.ru</a></li>
+          </ul>
+        </div>
+        <form class="contact-form">
+          <input type="text" placeholder="Ваше имя" required>
+          <input type="tel" placeholder="Телефон" required>
+          <textarea placeholder="Комментарий" rows="4"></textarea>
+          <button type="submit" class="btn btn-primary full-width">Отправить заявку</button>
+        </form>
+      </div>
+      <div class="container">
+        <p class="contact-address text-center full-width-address">Санкт-Петербург</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 Olga Kozlova Design. Все права защищены.</p>
+      </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div class="modal-body">
+          <h2 id="modal-title">Project Title</h2>
+          <p id="modal-description">Description</p>
+          <div class="modal-gallery" id="modal-gallery">
+            <!-- Images will be injected here -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>
