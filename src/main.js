@@ -1,4 +1,4 @@
-import './styles/main.css';
+// CSS is imported in HTML
 
 // Slider Logic
 const slider = document.getElementById('reviews-slider');
