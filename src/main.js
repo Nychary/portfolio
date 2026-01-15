@@ -22,11 +22,11 @@ const projects = [
         title: 'ЖК Лесная',
         description: 'Комплексное текстильное оформление квартиры в ЖК Лесная. В гостиной портьеры благородного бежевого оттенка подчеркивают теплоту деревянных текстур и создают уют. Легкий тюль не перегружает пространство и мягко рассеивает свет. Особое внимание уделено деталям: скрытые карнизы с подсветкой добавляют интерьеру воздушности и визуально увеличивают высоту потолков.',
         images: [
-            './images/lesnaya_detail_3.jpg',
-            './images/lesnaya_detail_4.jpg',
-            './images/lesnaya_cover.jpg',
-            './images/lesnaya_detail_1.jpg',
-            './images/lesnaya_detail_2.jpg'
+            './public/images/lesnaya_detail_3.jpg',
+            './public/images/lesnaya_detail_4.jpg',
+            './public/images/lesnaya_cover.jpg',
+            './public/images/lesnaya_detail_1.jpg',
+            './public/images/lesnaya_detail_2.jpg'
         ]
     },
     {
@@ -34,8 +34,8 @@ const projects = [
         title: 'Спальня Модерн',
         description: 'Лаконичное решение для современной спальни. Натуральный лен в серо-бежевых тонах. Портьеры на люверсах обеспечивают идеальную складку и легкое скольжение. Акцент сделан на фактуре ткани и игре света.',
         images: [
-            './images/portfolio_modern.jpg',
-            './images/project2_detail1.jpg'
+            './public/images/portfolio_modern.jpg',
+            './public/images/project2_detail1.jpg'
         ]
     },
     {
@@ -43,8 +43,8 @@ const projects = [
         title: 'Текстиль для Лофта',
         description: 'Оформление окон в лофт-апартаментах. Грубый хлопковый текстиль графитового цвета отлично сочетается с кирпичной кладкой. Использованы карнизы в индустриальном стиле.',
         images: [
-            './images/portfolio_loft.jpg',
-            './images/project3_detail1.jpg'
+            './public/images/portfolio_loft.jpg',
+            './public/images/project3_detail1.jpg'
         ]
     }
 ];
