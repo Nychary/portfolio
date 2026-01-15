@@ -79,7 +79,7 @@
             </ul>
           </div>
           <div class="about-image-wrapper">
-            <img src="./images/about_portrait_olga.png" alt="Ольга Козлова - Дизайнер" class="about-image">
+            <img src="./images/about_portrait_olga_v2.png" alt="Ольга Козлова - Дизайнер" class="about-image">
           </div>
         </div>
       </div>
@@ -118,9 +118,9 @@
         <div class="portfolio-grid" id="portfolio-grid">
           <div class="portfolio-item" data-id="1">
             <div class="image-box aspect-ratio-3-4">
-              <img src="./images/portfolio_classic.jpg" alt="Проект Классика">
+              <img src="./images/lesnaya_cover.jpg" alt="ЖК Лесная">
             </div>
-            <h3>Гостиная в классическом стиле</h3>
+            <h3>ЖК Лесная</h3>
           </div>
           <div class="portfolio-item" data-id="2">
             <div class="image-box aspect-ratio-3-4">
@@ -193,6 +193,69 @@
 
 
 
+    <!-- Reviews Section -->
+    <section id="reviews" class="section">
+      <div class="container">
+        <h2 class="section-title">Отзывы клиентов</h2>
+        <div class="reviews-slider-container">
+          <button class="slider-btn prev-btn" aria-label="Previous slide">&lt;</button>
+
+          <div class="reviews-slider" id="reviews-slider">
+            <!-- Review 1 -->
+            <div class="review-item">
+              <img src="./images/avatars/avatar1.png" alt="Елена" class="review-avatar-small">
+              <div class="review-content">
+                <h4>Елена</h4>
+                <p class="review-text-small">Ольга сотворила настоящее чудо! Шторы идеально вписались в интерьер. Подбор
+                  тканей просто восхитительный!</p>
+              </div>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="review-item">
+              <img src="./images/avatars/avatar2.png" alt="Дмитрий" class="review-avatar-small">
+              <div class="review-content">
+                <h4>Дмитрий</h4>
+                <p class="review-text-small">Профессиональный подход. Все выполнено точно в срок, качество пошива на
+                  высоте.</p>
+              </div>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="review-item">
+              <img src="./images/avatars/avatar3.png" alt="Анна" class="review-avatar-small">
+              <div class="review-content">
+                <h4>Анна</h4>
+                <p class="review-text-small">Очень уютно стало благодаря текстилю. Ольга помогла с выбором цвета.</p>
+              </div>
+            </div>
+
+            <!-- Review 4 -->
+            <div class="review-item">
+              <img src="./images/avatars/avatar4.png" alt="Сергей" class="review-avatar-small">
+              <div class="review-content">
+                <h4>Сергей</h4>
+                <p class="review-text-small">Лаконично, стильно и современно. Спасибо за отличную работу и внимание к
+                  деталям!</p>
+              </div>
+            </div>
+
+            <!-- Review 5 -->
+            <div class="review-item">
+              <img src="./images/avatars/avatar5.png" alt="Ирина П." class="review-avatar-small">
+              <div class="review-content">
+                <h4>Ирина П.</h4>
+                <p class="review-text-small">Блэкаут шторы — мое спасение! Ткань очень красивая, тяжелая, складки лежат
+                  идеально.</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="slider-btn next-btn" aria-label="Next slide">&gt;</button>
+        </div>
+      </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact" class="section bg-dark text-white">
       <div class="container contact-wrapper">
@@ -204,12 +267,15 @@
             <li><a href="mailto:okv-100@mail.ru" class="contact-email">okv-100@mail.ru</a></li>
           </ul>
         </div>
-        <form class="contact-form">
-          <input type="text" placeholder="Ваше имя" required>
-          <input type="tel" placeholder="Телефон" required>
-          <textarea placeholder="Комментарий" rows="4"></textarea>
-          <button type="submit" class="btn btn-primary full-width">Отправить заявку</button>
-        </form>
+        <div class="contact-form-wrapper">
+          <p class="form-intro">Есть вопросы? Заполните форму, и я обязательно вам отвечу</p>
+          <form class="contact-form">
+            <input type="text" placeholder="Ваше имя" required>
+            <input type="tel" placeholder="Телефон" required>
+            <textarea placeholder="Комментарий" rows="4"></textarea>
+            <button type="submit" class="btn btn-primary full-width">Отправить заявку</button>
+          </form>
+        </div>
       </div>
       <div class="container">
         <p class="contact-address text-center full-width-address">Санкт-Петербург</p>

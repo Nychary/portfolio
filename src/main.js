@@ -1,15 +1,32 @@
 import './styles/main.css';
 
+// Slider Logic
+const slider = document.getElementById('reviews-slider');
+const prevBtn = document.querySelector('.prev-btn');
+const nextBtn = document.querySelector('.next-btn');
+
+if (slider && prevBtn && nextBtn) {
+    prevBtn.addEventListener('click', () => {
+        slider.scrollBy({ left: -300, behavior: 'smooth' }); // Scroll left by item width + gap
+    });
+
+    nextBtn.addEventListener('click', () => {
+        slider.scrollBy({ left: 300, behavior: 'smooth' }); // Scroll right
+    });
+}
+
 // Project Data
 const projects = [
     {
         id: 1,
-        title: 'Гостиная в классическом стиле',
-        description: 'Роскошное оформление гостиной в загородном доме. Использован итальянский бархат цвета шампань с золотой отделкой. Ламбрекены сложной формы подчеркивают высоту потолков. Тюль с деликатной вышивкой создает мягкое рассеянное освещение.',
+        title: 'ЖК Лесная',
+        description: 'Комплексное текстильное оформление квартиры в ЖК Лесная. В гостиной портьеры благородного бежевого оттенка подчеркивают теплоту деревянных текстур и создают уют. Легкий тюль не перегружает пространство и мягко рассеивает свет. Особое внимание уделено деталям: скрытые карнизы с подсветкой добавляют интерьеру воздушности и визуально увеличивают высоту потолков.',
         images: [
-            './images/portfolio_classic.jpg',
-            './images/project1_detail1.jpg',
-            './images/project1_detail2.jpg'
+            './images/lesnaya_detail_3.jpg',
+            './images/lesnaya_detail_4.jpg',
+            './images/lesnaya_cover.jpg',
+            './images/lesnaya_detail_1.jpg',
+            './images/lesnaya_detail_2.jpg'
         ]
     },
     {
