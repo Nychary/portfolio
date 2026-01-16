@@ -203,7 +203,7 @@ img {
   background-color: #333;
   background-image: url('/portfolio/public/images/hero_bg_new.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   color: var(--color-white);
 }
 
