@@ -201,7 +201,9 @@ img {
   justify-content: center;
   text-align: center;
   background-color: #333;
-  background-image: url('/portfolio/public/images/hero_bg_new.jpg');
+  background-image: url('/images/hero_bg_new.jpg');
+
+
   background-size: cover;
   background-position: center top;
   color: var(--color-white);
@@ -543,7 +545,9 @@ img {
   position: relative;
   /* For overlay positioning */
   background-color: #1A1A1A;
-  background-image: url('/portfolio/public/images/hero_bg_new.jpg');
+  background-image: url('/images/hero_bg_new.jpg');
+
+
   background-size: cover;
   background-position: center;
   color: var(--color-white);
