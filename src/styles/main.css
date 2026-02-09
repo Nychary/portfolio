@@ -201,7 +201,8 @@ img {
   justify-content: center;
   text-align: center;
   background-color: #333;
-  background-image: url('/images/hero_bg_new.jpg');
+  background-image: url('../../public/images/hero_bg_new.jpg');
+
 
 
   background-size: cover;
@@ -545,7 +546,8 @@ img {
   position: relative;
   /* For overlay positioning */
   background-color: #1A1A1A;
-  background-image: url('/images/hero_bg_new.jpg');
+  background-image: url('../../public/images/hero_bg_new.jpg');
+
 
 
   background-size: cover;
