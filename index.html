@@ -70,7 +70,8 @@
       <div class="container hero-content">
         <div class="hero-top-text animate-fade-up">
           <span class="hero-subtitle">ДИЗАЙНЕР ПО ТЕКСТИЛЮ</span>
-          <span class="hero-location">Санкт-Петербург</span>
+          <span class="hero-subtitle">Шторы</span>
+          <span class="hero-subtitle">Санкт-Петербург</span>
         </div>
         <h1 class="hero-title animate-fade-up delay-1">Ольга Козлова</h1>
         <p class="hero-tagline animate-fade-up delay-2">От идеи до реализации</p>
@@ -147,25 +148,35 @@
     <section id="portfolio" class="section">
       <div class="container">
         <h2 class="section-title">Портфолио</h2>
-        <div class="portfolio-grid" id="portfolio-grid">
-          <div class="portfolio-item" data-id="1">
-            <div class="image-box aspect-ratio-3-4">
-              <img src="./public/images/lesnaya_cover.jpg" alt="ЖК Лесная">
+        <div class="portfolio-slider-wrapper" style="position: relative;">
+          <button class="slider-btn prev-portfolio" aria-label="Previous Project">❮</button>
+          <div class="portfolio-grid" id="portfolio-grid">
+            <div class="portfolio-item" data-id="1">
+              <div class="image-box aspect-ratio-3-4">
+                <img src="./public/images/lesnaya/IMG_20240903_010838_013.jpg" alt="ЖК Лесная">
+              </div>
+              <h3>ЖК Лесная</h3>
             </div>
-            <h3>ЖК Лесная</h3>
-          </div>
-          <div class="portfolio-item" data-id="2">
-            <div class="image-box aspect-ratio-3-4">
-              <img src="./public/images/portfolio_modern.jpg" alt="Проект Модерн">
+            <div class="portfolio-item" data-id="2">
+              <div class="image-box aspect-ratio-3-4">
+                <img src="./public/images/Gr27_28.jpg" alt="Дом Желаний">
+              </div>
+              <h3>Дом Желаний</h3>
             </div>
-            <h3>Спальня Модерн</h3>
-          </div>
-          <div class="portfolio-item" data-id="3">
-            <div class="image-box aspect-ratio-3-4">
-              <img src="./public/images/portfolio_loft.jpg" alt="Проект Лофт">
+            <div class="portfolio-item" data-id="3">
+              <div class="image-box aspect-ratio-3-4">
+                <img src="./public/images/047A1082.jpg" alt="Мендсары. Домик для гостей">
+              </div>
+              <h3>Мендсары. Домик для гостей</h3>
             </div>
-            <h3>Текстиль для Лофта</h3>
+            <div class="portfolio-item" data-id="4">
+              <div class="image-box aspect-ratio-3-4">
+                <img src="./public/images/057A0855.jpg" alt="База отдыха Бородинское">
+              </div>
+              <h3>База отдыха Бородинское</h3>
+            </div>
           </div>
+          <button class="slider-btn next-portfolio" aria-label="Next Project">❯</button>
         </div>
       </div>
     </section>
@@ -332,6 +343,11 @@
           </div>
         </div>
       </div>
+    </div>
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+      <span class="close-lightbox">&times;</span>
+      <img class="lightbox-content" id="lightbox-img">
     </div>
   </div>
   <script type="module" src="./src/main.js"></script>
